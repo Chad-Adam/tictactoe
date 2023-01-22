@@ -1,4 +1,5 @@
 import random
+import os
 
 logo = '''888   d8b        888                   888                    
 888   Y8P        888                   888                    
@@ -15,6 +16,7 @@ r3 = ['-', '-', '-']
 
 
 def call_board():
+    os.system('cls' if os.name == 'nt' else 'clear')
     board = f'''       a     b     c
           |     |     
     1  {r1[0]}  |  {r1[1]}  |  {r1[2]}  
@@ -219,3 +221,5 @@ def check_tt():
         print("Cpu Wins!")
         return False
 
+def win_ascii():
+    print()
