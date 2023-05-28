@@ -10,7 +10,7 @@
              Y88b. 888Y88b.   Y88b. 888  888Y88b.   Y88b. Y88..88PY8b.     
               "Y888888 "Y8888P "Y888"Y888888 "Y8888P "Y888 "Y88P"  "Y8888
 
- An ascii version of tic tac toe as a quick project to try and keep my python skills sharp.
+ An ascii version of tic tac toe as a quick project.
 
  Hope you like it!
 
