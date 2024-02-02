@@ -16,7 +16,7 @@ while running:
         running = False
 
     if running:
-        print("Cpu Thinking..")
+        print("Cpu thinking about this..")
         time.sleep(1)
         print("Cpu Chose.")
         board.cpu_choice(random.randrange(0, 8))
